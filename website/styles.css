@@ -1,0 +1,136 @@
+.level-Up-Design-Unreal-Engine-5-Game-1-hex { color: #040DBF; }
+.level-Up-Design-Unreal-Engine-5-Game-2-hex { color: #020873; }
+.level-Up-Design-Unreal-Engine-5-Game-3-hex { color: #020659; }
+.level-Up-Design-Unreal-Engine-5-Game-4-hex { color: #010326; }
+.level-Up-Design-Unreal-Engine-5-Game-5-hex { color: #056CF2; }
+
+
+*{
+	font-family: 'IBM Plex Serif', serif;
+}
+
+body {
+    background-color: black;
+}
+
+nav {
+    margin-top: -12px;
+    margin-right: -5px;
+    margin-left: -5px;
+    margin-bottom: 40px;
+    background-color: #000032;
+}
+
+section{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+h1{
+    color: lightskyblue;
+}
+
+h2{
+    position: absolute;
+    color: lightskyblue;
+    font-size: 25px;
+    font-weight: bold;
+    margin-left: 1%;
+}
+
+p {
+    position: absolute;
+    color: lightskyblue;
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 15px;
+    margin-left: 1%;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;    
+    justify-content: flex-end;
+}
+
+li a {
+    text-decoration: none;
+    color: #056CF2;
+    font-size: 25px;
+    display: inline-block;
+    padding: 15px 50px 15px;
+}
+
+li a:hover {
+    background-color:#020873;
+}
+
+/* Style The Dropdown Button */
+.dropbtn {
+    background-color: #000032;
+    color: #056CF2;
+    padding: 16px;
+    font-size: 25px;
+    border: none;
+    cursor: pointer;
+}
+
+  /* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+  /* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: whitesmoke;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+  /* Links inside the dropdown */
+.dropdown-content a {
+    color: #056CF2;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+  /* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+    background-color: #000032;
+}
+
+  /* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+    background-color:#020873;
+}
+
+/* Introduction */
+
+.intro-images {
+    position: relative;
+    display: flex;
+}
+
+.intro-text {
+    position: absolute;
+    color: lightblue;
+    font-weight: bold;
+    font-size: 50px;
+    margin-left: 7%;
+}
+
+.ghost {
+    height: 700px;
+    max-width: max-content;
+    opacity: 0.1;
+}
