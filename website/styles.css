@@ -21,21 +21,9 @@ nav {
     background-color: #000032;
 }
 
-section{
-    margin-left: 5%;
-    margin-right: 5%;
-}
+h2 {
+    color: #056CF2;
 
-h1{
-    color: lightskyblue;
-}
-
-h2{
-    position: absolute;
-    color: lightskyblue;
-    font-size: 25px;
-    font-weight: bold;
-    margin-left: 1%;
 }
 
 p {
@@ -116,21 +104,87 @@ li a:hover {
 
 /* Introduction */
 
-.intro-images {
+.intro {
     position: relative;
     display: flex;
 }
 
+.hacker {
+    opacity: 0.05;
+    width: 100%;
+    height: 700px;
+}
+
+.intro-images {
+    position: absolute;
+    display: inline-flex;
+    margin-left: 22.5%;
+}
+
 .intro-text {
+    display: inline-flex;
     position: absolute;
     color: lightblue;
     font-weight: bold;
     font-size: 50px;
-    margin-left: 7%;
+    margin-left: -20%;
+}
+
+.smallText {
+    margin-top: 20%;
 }
 
 .ghost {
     height: 700px;
     max-width: max-content;
+    opacity: 0.3;
+}
+
+.me {
+    width: 25%;
+    height: auto;
+    margin-left: 20%;
+    margin-top: 10%;
+}
+
+.text {
+    color: white;
+    margin-top: 5%;
+    animation: text 3s ease-in-out infinite alternate;
+}
+
+@keyframes text {
+    from {
+        text-shadow:
+        0 0 5px #040DBF,0 0 10px #040DBF,
+        0 0 20px #040DBF, 0 0 40px #040DBF;
+    }
+      to {
+        text-shadow:
+        0 0 5px black, 0 0 10px black,
+        0 0 20px black, 0 0 40px black;
+    }
+}
+
+.encourageScrollDown {
+    display: flex;
+    justify-content: center;
+    margin-right: 3%;
+}
+
+.arrow {
+    width: 10%;
+    height: auto;
     opacity: 0.1;
+}
+
+/* Education */
+
+.workExperience {
+    margin-left: 8%;
+}
+
+.wEText {
+    font-size: 30px;
+    font-weight: bold;
 }
