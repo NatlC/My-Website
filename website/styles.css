@@ -4,6 +4,13 @@
 .level-Up-Design-Unreal-Engine-5-Game-4-hex { color: #010326; }
 .level-Up-Design-Unreal-Engine-5-Game-5-hex { color: #056CF2; }
 
+/* https://www.schemecolor.com/trendy-blue-black.php */
+
+.level-Up-Design-Unreal-Engine-5-Game-1-hex { color: #0F4DCA; }
+.level-Up-Design-Unreal-Engine-5-Game-2-hex { color: #1B94FF }
+.level-Up-Design-Unreal-Engine-5-Game-3-hex { color: #00D2FF }
+.level-Up-Design-Unreal-Engine-5-Game-4-hex { color: #0D112B; }
+.level-Up-Design-Unreal-Engine-5-Game-5-hex { color: #000000; }
 
 *{
 	font-family: 'IBM Plex Serif', serif;
@@ -18,17 +25,20 @@ nav {
     margin-right: -5px;
     margin-left: -5px;
     margin-bottom: 40px;
-    background-color: #000032;
+    
 }
 
-h2 {
-    color: #056CF2;
-
+.favicon {
+    position: absolute;
+    width: 3%;
+    height: auto;
+    margin-left: 5px;
+    margin-top: 5px;
 }
 
 p {
     position: absolute;
-    color: lightskyblue;
+    color: #1B94FF;
     font-size: 25px;
     font-weight: bold;
     margin-top: 15px;
@@ -50,56 +60,7 @@ li a {
 }
 
 li a:hover {
-    background-color:#020873;
-}
-
-/* Style The Dropdown Button */
-.dropbtn {
-    background-color: #000032;
-    color: #056CF2;
-    padding: 16px;
-    font-size: 25px;
-    border: none;
-    cursor: pointer;
-}
-
-  /* The container <div> - needed to position the dropdown content */
-.dropdown {
-    position: relative;
-    display: inline-block;
-}
-
-  /* Dropdown Content (Hidden by Default) */
-.dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: whitesmoke;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-}
-
-  /* Links inside the dropdown */
-.dropdown-content a {
-    color: #056CF2;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-}
-
-  /* Change color of dropdown links on hover */
-.dropdown-content a:hover {
-    background-color: #000032;
-}
-
-  /* Show the dropdown menu on hover */
-.dropdown:hover .dropdown-content {
-    display: block;
-}
-
-  /* Change the background color of the dropdown button when the dropdown content is shown */
-.dropdown:hover .dropbtn {
-    background-color:#020873;
+    color: white;
 }
 
 /* Introduction */
@@ -150,19 +111,21 @@ li a:hover {
 .text {
     color: white;
     margin-top: 5%;
-    animation: text 3s ease-in-out infinite alternate;
+    animation: text 1s ease-in-out infinite alternate;
 }
 
 @keyframes text {
     from {
         text-shadow:
-        0 0 5px #040DBF,0 0 10px #040DBF,
-        0 0 20px #040DBF, 0 0 40px #040DBF;
+        0 0 5px #0F4DCA,0 0 10px #0F4DCA,
+        0 0 20px #0F4DCA, 0 0 40px #0F4DCA;
+        
     }
       to {
         text-shadow:
         0 0 5px black, 0 0 10px black,
         0 0 20px black, 0 0 40px black;
+        
     }
 }
 
@@ -178,13 +141,216 @@ li a:hover {
     opacity: 0.1;
 }
 
-/* Education */
+/* Work Experience */
 
-.workExperience {
-    margin-left: 8%;
+h2 {
+    color: white;
+    font-size: 100px;
+    font-weight: bold;
 }
 
-.wEText {
-    font-size: 30px;
+h3 {
+    color: white;
+    font-size: 60px;
+    font-weight: bolder;
+}
+
+/* The first swirl */
+.swirl1, .swirl2, .swirl3, .swirl4 {
+    position: relative;
+}
+
+.swirlimg1, .swirlimg2, .swirlimg3, .swirlimg4 {
+    width: 100%;
+    height: auto;
+    opacity: 0.5;
+    
+}
+
+.title {
+    position: absolute;
+    display: block;
+    margin-left: 40%;
+    margin-top: -55%;
+}
+
+.weul {
+    display: flex;
+    flex-direction: column;
+    margin-top: -10%
+}
+
+.weli {
+    color:#1B94FF;
+    font-size: xx-large;
     font-weight: bold;
+    list-style-type: disc;
+}
+
+.teamwork {
+    width: 40%;
+    height: auto;
+    margin-left: 35%;
+    margin-top: -4%;
+}
+
+.whiteLine {
+    position: absolute;
+    width: 40%;
+    height: auto;
+    margin-left: -40%;
+    margin-top: -20%;
+    transform: rotate(160deg);
+}
+
+/* Bayview Glen */
+.swirlimg2 {
+    transform: scaleY(-1);
+    margin-top: -6px;
+}
+
+h4 {
+    font-size:50px;
+    color: white;
+}
+
+.bvg {
+    position: absolute;
+    margin-top: -72.5%;
+    margin-left: 7.5%;
+}
+
+.bvgul{
+    display: flex;
+    flex-direction: column;
+    margin-right: 55%;
+    margin-top: -3%
+}
+
+.bvgli {
+    color:#1B94FF;
+    font-size: x-large;
+    list-style-type: disc;
+}
+
+.bvgPortrait {
+    width: 25%;
+    height: auto;
+    margin-left: 46%;
+    margin-top: -50%;
+}
+
+/* Idealogical Systems */
+.whiteLine2 {
+    position: absolute;
+    width: 20%;
+    height: auto;
+    margin-top: -30%;
+    margin-left: 38%;
+    transform: rotate(160deg);
+}
+
+.ideaLogo {
+    position: absolute;
+    margin-top: -80%;
+    margin-left: 65%;
+}
+
+.whiteLine3 {
+    position: absolute;
+    width: 20%;
+    height: auto;
+    margin-top: -86%;
+    margin-left: 45%;
+    transform: rotate(20deg);
+}
+
+.whiteLine4 {
+    position: absolute;
+    width: 12.5%;
+    height: auto;
+    margin-top: -75%;
+    margin-left: 22.5%;
+    transform: rotate(20deg);
+}
+
+.ideaSys {
+    position: absolute;
+    margin-top: -76%;
+    margin-left: 35%;
+    margin-right: 10%
+}
+
+.swirlimg3 {
+    margin-top: -6px;
+}
+
+.isul {
+    display: flex;
+    flex-direction: column;
+    margin-top: -5%;
+    margin-right: 10%;
+}
+
+.isli {
+    color:#1B94FF;
+    font-size: x-large;
+    list-style-type: disc;
+}
+
+.defIT {
+    margin-left: 35%;
+}
+
+.whiteLine5 {
+    position: absolute;
+    width: 30%;
+    height: auto;
+    margin-top: 50%;
+    margin-left: -60%;
+    transform: rotate(160deg);
+}
+
+/* Quadient */
+.swirlimg4 {
+    transform: scaleY(-1);
+    margin-top: -6px;
+}
+
+.quadient {
+    position: absolute;
+    margin-top: -15%;
+    margin-left: 12.5%;
+}
+
+.quadul {
+    display: flex;
+    flex-direction: column;
+    margin-top: -5%;
+    margin-right: 25%;
+}
+
+.quadli {
+    color:#1B94FF;
+    font-size: x-large;
+    list-style-type: disc;
+}
+
+.quadLogo {
+    margin-left: 75%;
+    margin-top: -20%
+}
+
+.whiteLine6 {
+    position: absolute;
+    width: 17.5%;
+    height: auto;
+    margin-top: -20%;
+    margin-left: 68%;
+    transform: rotate(160deg);
+}
+
+.barColor {
+    background-color: black;
+    padding-bottom: 20px;
 }
