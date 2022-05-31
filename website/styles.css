@@ -150,8 +150,8 @@ h2 {
 }
 
 h3 {
-    color: white;
-    font-size: 60px;
+    color: lightgreen;
+    font-size: 30px;
     font-weight: bolder;
 }
 
@@ -207,6 +207,15 @@ h3 {
 .swirlimg2 {
     transform: scaleY(-1);
     margin-top: -6px;
+}
+
+.year1 {
+    color: #00D2FF;
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: -31%; 
+    margin-left: 40%;
+    transform: rotate(340deg);
 }
 
 h4 {
@@ -265,6 +274,16 @@ h4 {
     transform: rotate(20deg);
 }
 
+.year2{
+    position: absolute;
+    color: #00D2FF;
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: -37.25%;
+    margin-left: -22.5%;
+    transform: rotate(20deg);
+}
+
 .whiteLine4 {
     position: absolute;
     width: 12.5%;
@@ -273,6 +292,8 @@ h4 {
     margin-left: 22.5%;
     transform: rotate(20deg);
 }
+
+
 
 .ideaSys {
     position: absolute;
@@ -336,9 +357,22 @@ h4 {
     list-style-type: disc;
 }
 
+.year3{
+    position: absolute;
+    color: #00D2FF;
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: -22.75%;
+    margin-left: 68%;
+    transform: rotate(340deg);
+}
+
 .quadLogo {
+    position: absolute;
     margin-left: 75%;
-    margin-top: -20%
+    margin-top: -15%;
+    width: 15%;
+    height: auto;
 }
 
 .whiteLine6 {
@@ -350,7 +384,41 @@ h4 {
     transform: rotate(160deg);
 }
 
-.barColor {
-    background-color: black;
-    padding-bottom: 20px;
+.swirl4 {
+    position: relative;
+    max-height: 200px;
+    overflow: hidden;
+    margin-top: -5px;
 }
+
+
+.swirl4 img {
+    width: 100%;
+}
+
+.swirl4::after {
+    display: block;
+    position: absolute;
+    background-image: linear-gradient(to bottom,rgba(255, 255, 255, 0) 0, black 100%);
+    top: 0;
+    height: 200px;
+    width: 100%;
+    content: '';
+}
+
+.codingul {
+    display: flex;
+    flex-direction: column;
+}
+
+.codingli {
+    color:#1B94FF;
+    font-size: x-large;
+    list-style-type: disc;
+}
+
+.contact, .projects, .certifications, .awards {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
