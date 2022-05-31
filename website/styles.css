@@ -409,6 +409,7 @@ h4 {
 .codingul {
     display: flex;
     flex-direction: column;
+    margin-top: -3.5%;
 }
 
 .codingli {
@@ -417,8 +418,193 @@ h4 {
     list-style-type: disc;
 }
 
-.contact, .projects, .certifications, .awards {
+.contact, .projects, .certifications, .awards, .volunteerExperience {
     margin-left: 10%;
     margin-right: 10%;
 }
 
+/* Volunteer Experience */
+
+.ymcaLogo {
+    width: 40%;
+    height: auto;
+}
+
+.shoppingCart {
+    width: 40%;
+    height: auto;
+}
+
+/* Projects */
+.circuits {
+    width: 40%;
+    height: auto;
+}
+
+/* Certifications */
+.lifeSaving {
+    width: 40%;
+    height: auto;
+}
+
+/* Awards */
+.academicAchievement {
+    width: 40%;
+    height: auto;
+    transform: rotate(180deg)
+}
+
+/* .hallOfFame {
+    width: 40%;
+    height: auto;
+} */
+
+.hRoll {
+    width: 40%;
+    height: auto;
+}
+
+.hRollCertificate {
+    width: 40%;
+    height: auto;
+    transform: rotate(180deg);
+}
+
+/* Contact */
+.ending {
+    display: inline-block
+}
+
+.clouds {
+    width: 40%;
+    height: auto;
+    margin-left: 10%;
+}
+
+#hallOfFame, #lifeSaving {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    width: 40%;
+    height: auto;
+  }
+  
+  #hallOfFame:hover {opacity: 0.7;}
+
+  #lifeSaving:hover {opacity: 0.7;}
+  
+  /* The Modal (background) */
+  .modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+  }
+  
+  /* Modal Content (image) */
+  .modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 1000px;
+  }
+  
+  /* Caption of Modal Image */
+  #caption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+  }
+  
+  /* Add Animation */
+  .modal-content, #caption {  
+    animation-name: zoom;
+    animation-duration: 0.6s;
+  }
+  
+  @keyframes zoom {
+    from {transform: scale(0.1)} 
+    to {transform: scale(1)}
+  }
+  
+  /* The Close Button */
+  .close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  /* 100% Image Width on Smaller Screens */
+  @media only screen and (max-width: 700px){
+    .modal-content {
+      width: 100%;
+    }
+}
+
+.intro {
+    animation: fadeIn 3s;
+    -webkit-animation: fadeIn 3s;
+    -moz-animation: fadeIn 3s;
+    -o-animation: fadeIn 3s;
+    -ms-animation: fadeIn 3s;
+ }
+
+ nav{
+    animation: fadeIn 5s;
+    -webkit-animation: fadeIn 5s;
+    -moz-animation: fadeIn 5s;
+    -o-animation: fadeIn 5s;
+    -ms-animation: fadeIn 5s;
+ }
+
+  @keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-moz-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+  
+  @-webkit-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+  
+  @-o-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+  
+  @-ms-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+  
+  html {
+    scroll-behavior: smooth;
+}
