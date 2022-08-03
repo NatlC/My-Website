@@ -200,14 +200,26 @@ h3 {
 }
 
 /* The first swirl */
-.swirl1, .swirl2, .swirl3, .swirl4 {
+.swirl0, .swirl1, .swirl2, .swirl3, .swirl4 {
     position: relative;
 }
 
-.swirlimg1, .swirlimg2, .swirlimg3, .swirlimg4 {
+.swirlimg0, .swirlimg1, .swirlimg2, .swirlimg3, .swirlimg4 {
     width: 100%;
     height: auto;
     opacity: 0.5;
+}
+
+.swirlimg0 {
+    transform: scaleY(-1);
+}
+
+.swirlimg1 {
+    margin-top: -0.32rem; 
+}
+
+.swirl1 {
+    z-index: -1;
 }
 
 .title {
@@ -220,14 +232,13 @@ h3 {
 .weul {
     display: flex;
     flex-direction: column;
-    margin-top: -10%
 }
 
 .weli {
     color:#1B94FF;
-    font-size: xx-large;
-    font-weight: bold;
+    font-size: x-large;
     list-style-type: disc;
+    
 }
 
 .teamwork {
@@ -732,4 +743,8 @@ p1 {
   
   .scrollFade--animate {
     transition: opacity 0.4s ease-in-out;
+  }
+
+  .ending {
+    text-align: center;
   }
