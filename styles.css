@@ -225,20 +225,36 @@ h3 {
 .title {
     position: absolute;
     display: block;
-    margin-left: 40%;
-    margin-top: -55%;
+    margin-left: 36%;
+    margin-top: -22.5%;
+    margin-right: 15%;
+}
+
+.cityOfTorontoLogo {
+    width: 200px;
+    height: auto;
+    margin-left: 52.5%;
+    margin-bottom: -17%;
+    border-radius: 50%;
 }
 
 .weul {
     display: flex;
     flex-direction: column;
+    margin-top: -5%
 }
 
 .weli {
     color:#1B94FF;
     font-size: x-large;
     list-style-type: disc;
-    
+}
+
+.educationAssistant {
+    width: 55%;
+    height: auto;
+    float: right;
+    margin-right: 10%;
 }
 
 .teamwork {
