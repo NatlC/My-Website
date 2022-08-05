@@ -222,6 +222,24 @@ h3 {
     z-index: -1;
 }
 
+.wELegend {
+    position: absolute;
+    margin-left: 7.5%;
+    margin-top: -58%;
+}
+
+.legendul{
+    display: flex;
+    flex-direction: column;
+    margin-top: -10%
+}
+
+.legendli{
+    color:#00D2FF;
+    font-size: xx-large;
+    list-style-type: disc;
+}
+
 .title {
     position: absolute;
     display: block;
@@ -234,14 +252,14 @@ h3 {
     width: 200px;
     height: auto;
     margin-left: 52.5%;
-    margin-bottom: -17%;
+    margin-bottom: -16%;
     border-radius: 50%;
 }
 
 .weul {
     display: flex;
     flex-direction: column;
-    margin-top: -5%
+    margin-top: -6%
 }
 
 .weli {
@@ -255,6 +273,7 @@ h3 {
     height: auto;
     float: right;
     margin-right: 10%;
+    margin-top: 0.5%;
 }
 
 .teamwork {
@@ -264,12 +283,39 @@ h3 {
     margin-top: -4%;
 }
 
+.whiteLine-2 {
+    position: absolute;
+    width: 47.5%;
+    height: auto;
+    margin-left: 10%;
+    margin-top: -62.5%;
+    transform: rotate(20deg);
+}
+
+.whiteLine-1 {
+    position: absolute;
+    width: 25%;
+    height: auto;
+    margin-left: -25%;
+    margin-top: -42.5%;
+    transform: rotate(20deg);
+}
+
+.year {
+    color: #00D2FF;
+    font-size: 25px;
+    font-weight: bold;
+    margin-left: -24.5%;
+    margin-top: -45.5%;
+    transform: rotate(20deg);
+}
+
 .whiteLine {
     position: absolute;
-    width: 40%;
+    width: 35%;
     height: auto;
-    margin-left: -40%;
-    margin-top: -20%;
+    margin-left: 0%;
+    margin-top: 45%;
     transform: rotate(160deg);
 }
 
