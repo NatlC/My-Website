@@ -1,2 +1,2 @@
-# Creating my Website Portfolio (Somewhat finished - working on responsive design without grids)
+# My Website
 Link: https://natlc.github.io/My-Website/
